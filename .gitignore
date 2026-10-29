@@ -1,0 +1,43 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# PhysioNet source data and caches
+data/raw/
+data/cache/
+
+# Logs and local secrets
+*.log
+.env
+.env.*
+!.env.example
+
+# Temporary browser profiles, downloads, and automation artifacts
+.playwright/
+.puppeteer/
+browser-data/
+browser-profile/
+selenium-profile/
+
+# Preserve upstream build exclusions
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+*.o
+*.elf
+*.bin
+.DS_Store
+.idea/
+.vscode/
+
+data/.pytest-tmp/
+pytest-cache-files-*/
+
+# Existing user-owned course plan (keep out of project commits)
+/ECG_Cardia课程项目_开发执行计划与Codex提示词.docx
+
+/report/

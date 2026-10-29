@@ -1,0 +1,7 @@
+numpy
+scipy
+wfdb
+neurokit2
+flask
+matplotlib
+pytest
